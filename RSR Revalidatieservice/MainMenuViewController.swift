@@ -8,13 +8,23 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainMenuViewController: UIViewController {
+    
+    //
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        navBarSetup()
+        
     }
 
+    private func navBarSetup() {
+        print(123) //Responding test usage
+        
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

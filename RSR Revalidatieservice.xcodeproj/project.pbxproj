@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		691322551F3781C6000AB167 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691322541F3781C6000AB167 /* NetworkCheck.swift */; };
+		691322571F3794C5000AB167 /* CustomCallout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691322561F3794C5000AB167 /* CustomCallout.swift */; };
+		6914BC301F534E2400BFE986 /* Storyboardipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6914BC2F1F534E2400BFE986 /* Storyboardipad.storyboard */; };
 		693519BF1F30CBF40097776B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693519BE1F30CBF40097776B /* AppDelegate.swift */; };
-		693519C11F30CBF40097776B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693519C01F30CBF40097776B /* ViewController.swift */; };
+		693519C11F30CBF40097776B /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693519C01F30CBF40097776B /* MainMenuViewController.swift */; };
 		693519C41F30CBF40097776B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693519C21F30CBF40097776B /* Main.storyboard */; };
 		693519C61F30CBF40097776B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 693519C51F30CBF40097776B /* Assets.xcassets */; };
 		693519C91F30CBF40097776B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 693519C71F30CBF40097776B /* LaunchScreen.storyboard */; };
+		69577D581F311E28000FA9BC /* customSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69577D571F311E28000FA9BC /* customSegue.swift */; };
+		69577D5A1F31279B000FA9BC /* PechhulpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69577D591F31279B000FA9BC /* PechhulpViewController.swift */; };
+		69577D5D1F31282D000FA9BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69577D5C1F31282D000FA9BC /* MapKit.framework */; };
+		69577D5F1F312A41000FA9BC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69577D5E1F312A41000FA9BC /* CoreLocation.framework */; };
+		696091E91F363E25003EAC5C /* OverRSRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696091E81F363E25003EAC5C /* OverRSRViewController.swift */; };
+		69943D601F4E715600D82F9B /* LocationServicesCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69943D5F1F4E715600D82F9B /* LocationServicesCheck.swift */; };
+		69A2CD3B1F537E11009CC452 /* iPadPechhulpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2CD3A1F537E11009CC452 /* iPadPechhulpViewController.swift */; };
+		69B38E5E1F32DEF30049CF17 /* CustomCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69B38E5D1F32DEF30049CF17 /* CustomCallout.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		691322541F3781C6000AB167 /* NetworkCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
+		691322561F3794C5000AB167 /* CustomCallout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCallout.swift; sourceTree = "<group>"; };
+		6914BC2F1F534E2400BFE986 /* Storyboardipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboardipad.storyboard; sourceTree = "<group>"; };
 		693519BB1F30CBF40097776B /* RSR Revalidatieservice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSR Revalidatieservice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		693519BE1F30CBF40097776B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		693519C01F30CBF40097776B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		693519C01F30CBF40097776B /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		693519C31F30CBF40097776B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		693519C51F30CBF40097776B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		693519C81F30CBF40097776B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		693519CA1F30CBF40097776B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69577D571F311E28000FA9BC /* customSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customSegue.swift; sourceTree = "<group>"; };
+		69577D591F31279B000FA9BC /* PechhulpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PechhulpViewController.swift; sourceTree = "<group>"; };
+		69577D5C1F31282D000FA9BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		69577D5E1F312A41000FA9BC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		696091E81F363E25003EAC5C /* OverRSRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverRSRViewController.swift; sourceTree = "<group>"; };
+		69943D5F1F4E715600D82F9B /* LocationServicesCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServicesCheck.swift; sourceTree = "<group>"; };
+		69A2CD3A1F537E11009CC452 /* iPadPechhulpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPadPechhulpViewController.swift; sourceTree = "<group>"; };
+		69B38E5D1F32DEF30049CF17 /* CustomCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCallout.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69577D5F1F312A41000FA9BC /* CoreLocation.framework in Frameworks */,
+				69577D5D1F31282D000FA9BC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,7 @@
 			children = (
 				693519BD1F30CBF40097776B /* RSR Revalidatieservice */,
 				693519BC1F30CBF40097776B /* Products */,
+				69577D5B1F31282D000FA9BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,56 @@
 		693519BD1F30CBF40097776B /* RSR Revalidatieservice */ = {
 			isa = PBXGroup;
 			children = (
-				693519BE1F30CBF40097776B /* AppDelegate.swift */,
-				693519C01F30CBF40097776B /* ViewController.swift */,
-				693519C21F30CBF40097776B /* Main.storyboard */,
-				693519C51F30CBF40097776B /* Assets.xcassets */,
-				693519C71F30CBF40097776B /* LaunchScreen.storyboard */,
+				69D62A851F3B25FF00B85195 /* View Controllers */,
+				69D62A861F3B265500B85195 /* Additional Classes */,
+				69D62A871F3B269600B85195 /* Designs */,
 				693519CA1F30CBF40097776B /* Info.plist */,
+				693519BE1F30CBF40097776B /* AppDelegate.swift */,
 			);
 			path = "RSR Revalidatieservice";
+			sourceTree = "<group>";
+		};
+		69577D5B1F31282D000FA9BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69577D5E1F312A41000FA9BC /* CoreLocation.framework */,
+				69577D5C1F31282D000FA9BC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69D62A851F3B25FF00B85195 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				693519C01F30CBF40097776B /* MainMenuViewController.swift */,
+				696091E81F363E25003EAC5C /* OverRSRViewController.swift */,
+				69577D591F31279B000FA9BC /* PechhulpViewController.swift */,
+				69A2CD3A1F537E11009CC452 /* iPadPechhulpViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		69D62A861F3B265500B85195 /* Additional Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69577D571F311E28000FA9BC /* customSegue.swift */,
+				691322541F3781C6000AB167 /* NetworkCheck.swift */,
+				69943D5F1F4E715600D82F9B /* LocationServicesCheck.swift */,
+			);
+			name = "Additional Classes";
+			sourceTree = "<group>";
+		};
+		69D62A871F3B269600B85195 /* Designs */ = {
+			isa = PBXGroup;
+			children = (
+				691322561F3794C5000AB167 /* CustomCallout.swift */,
+				69B38E5D1F32DEF30049CF17 /* CustomCallout.xib */,
+				693519C21F30CBF40097776B /* Main.storyboard */,
+				6914BC2F1F534E2400BFE986 /* Storyboardipad.storyboard */,
+				693519C51F30CBF40097776B /* Assets.xcassets */,
+				693519C71F30CBF40097776B /* LaunchScreen.storyboard */,
+			);
+			name = Designs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +165,14 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 7SJL5G75Q5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +202,8 @@
 				693519C91F30CBF40097776B /* LaunchScreen.storyboard in Resources */,
 				693519C61F30CBF40097776B /* Assets.xcassets in Resources */,
 				693519C41F30CBF40097776B /* Main.storyboard in Resources */,
+				6914BC301F534E2400BFE986 /* Storyboardipad.storyboard in Resources */,
+				69B38E5E1F32DEF30049CF17 /* CustomCallout.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +214,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693519C11F30CBF40097776B /* ViewController.swift in Sources */,
+				693519C11F30CBF40097776B /* MainMenuViewController.swift in Sources */,
+				69943D601F4E715600D82F9B /* LocationServicesCheck.swift in Sources */,
+				691322551F3781C6000AB167 /* NetworkCheck.swift in Sources */,
+				696091E91F363E25003EAC5C /* OverRSRViewController.swift in Sources */,
 				693519BF1F30CBF40097776B /* AppDelegate.swift in Sources */,
+				69577D581F311E28000FA9BC /* customSegue.swift in Sources */,
+				69577D5A1F31279B000FA9BC /* PechhulpViewController.swift in Sources */,
+				69A2CD3B1F537E11009CC452 /* iPadPechhulpViewController.swift in Sources */,
+				691322571F3794C5000AB167 /* CustomCallout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "andyapps.RSR-Revalidatieservice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -280,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "andyapps.RSR-Revalidatieservice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +388,7 @@
 				693519CF1F30CBF40097776B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
